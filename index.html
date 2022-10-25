@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <form class="formulario">
+        <center>
+        <h1 class="textologin">login</h1><br/>
+        <label class="textopequeno">Usuário:</label><br/>
+        <input class="caixatexto imput" placeholder="Nome" id="login">
+
+        <label class="textopequeno">Senha:</label><br/>
+        <input class="caixatexto imput" placeholder="********" id="senha"><br/>
+        <input class="botaoentrar imput" type="submit" onclick="logar()"></input>
+        </center>
+    </form>
+
+    <script>
+
+        function logar(){
+
+        var login = document.getElementById('login').value;
+        var senha = document.getElementById('senha').value;
+
+        if(login == "admin" && senha == "santiago123"){
+            alert('Você conseguiu!')
+        } else {
+            alert('login ou senha incorreto :/')
+        }
+
+        }
+    </script>
+
+</body>
+</html>

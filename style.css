@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+.formulario {
+    width: 300px;
+    margin: 140px auto;
+    text-align: center;
+}
+
+.imput {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+}
+
+.textologin {
+    font-family: 'Gochi Hand';
+    color: #e009d9;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.textopequeno {
+    font-family: 'Gochi Hand';
+    color:#37cc0a;
+    font-size: 30px;
+    margin: 20px 5px 10px 5px;
+}
+
+.caixatexto {
+    font-family: 'Gochi Hand';
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #313131;
+}
+
+.botaoentrar {
+    font-family: 'Gochi Hand';
+    font-size: 30px;
+    text-align: center;
+    background-color: #e009d9;
+    border-radius: 20px;
+}
+
+.botaoentrar:hover {
+    background-color: #b80ab2;
+}
